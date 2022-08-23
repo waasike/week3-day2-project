@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLP Academy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar sticky-top" id="navigation">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li>
+                    <h2 id="logo"><img src="images/powerlearn.png" width="105px" height="60px"></h2>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#courses">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="facilitators.html">Facilitators</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Students
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="local.html" id="drop">Local</a>
+                        <a class="dropdown-item" href="international.html" id="drop">International</a>
+                    </div>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <section class="home-section">
+        <div>
+            <img src="images/home.png" id="home-image">
+        </div>
+        <div>
+            <h1 id="home-header" class="home-details">Learn Everyday & Discover a world of<br> new Possibilities
+            </h1>
+            <h6 id="home-small-header" class="smallhome-heading">Build skills with courses, certificates, and <br> begin
+                your new career from our world-class <br> platform</h6>
+            <a href="#courses">
+                <button id="contact-button">View Courses</button>
+            </a>
+
+        </div>
+    </section>
+    <section id="courses-section">
+        <div id="courses">
+            <h3 id="title">COURSES AVAILABLE</h3>
+            <div class="project-container">
+                <div class="project-card">
+                    <img class="project-image" src="images/python-image.png" />
+                    <p class="course-title">Python Programming</p>
+                    <img src="images/rating.png" class="rating">4.5k Reviews
+                    <div class="progress" id="home-bars">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 80%;" aria-valuenow="80"
+                            aria-valuemin="0" aria-valuemax="100">780 enrolled</div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img class="project-image" src="images/dart-image.webp" />
+                    <p class="course-title">Dart Programming</p>
+                    <img src="images/2stars.png" class="rating">2.5k Reviews
+                    <div class="progress" id="home-bars">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 45%;" aria-valuenow="45"
+                            aria-valuemin="0" aria-valuemax="100">554 enrolled</div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img class="project-image" src="images/database-image.png" />
+                    <p class="course-title">Database Programming</p>
+                    <img src="images/rating.png" class="rating">4.5k Reviews
+                    <div class="progress" id="home-bars">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 75%;" aria-valuenow="75"
+                            aria-valuemin="0" aria-valuemax="100">764 enrolled</div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-container">
+                <div class="project-card">
+                    <img class="project-image" src="images/web-image.jpeg" />
+                    <p class="course-title">Web Technology</p>
+                    <img src="images/rating.png" class="rating">6.5k Reviews
+                    <div class="progress" id="home-bars">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 90%;" aria-valuenow="90"
+                            aria-valuemin="0" aria-valuemax="100">920 enrolled</div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img class="project-image" src="images/computing-image.jpg" />
+                    <p class="course-title">Computing Essentials</p>
+                    <img src="images/rating.png" class="rating">7.5k Reviews
+                    <div class="progress" id="home-bars">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 98%;" aria-valuenow="98"
+                            aria-valuemin="0" aria-valuemax="100">987 enrolled</div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img class="project-image" src="images/skills-image.jpeg" width="340px" height="20px" />
+                    <p class="course-title">Enterpreneurship and Personal development(Skills)</p>
+                    <img src="images/2stars.png" class="rating">3.5k Reviews
+                    <div class="progress" id="home-bars">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 35%;" aria-valuenow="35"
+                            aria-valuemin="0" aria-valuemax="100">427 enrolled</div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-container">
+                <div class="project-card">
+                    <img class="project-image" src="images/c.png" />
+                    <p class="course-title"><strike> C Programming</strike></p>
+                    <img src="images/2stars.png" class="rating"><strike>0 Reviews</strike> COURSE CLOSED
+                    <div class="progress" id="home-bars">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 0%;" aria-valuenow="45"
+                            aria-valuemin="0" aria-valuemax="100">&nbsp; 0 enrolled</div>
+                    </div>
+                </div>
+            </div>
+
+
+    </section>
+</body>
+
+</html>

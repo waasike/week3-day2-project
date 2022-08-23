@@ -1,0 +1,450 @@
+/* STYLING THE NAVIGATION BAR */
+#navigation{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    
+}
+
+#navigation ul li {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: -3%;
+}
+
+#navigation ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 9px 25px;
+    transition: all .5s ease;
+}
+/* STYLING THE DROP-DOWN(students) */
+#drop{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.0rem;
+    font-weight: bold;
+    margin-bottom: -3%;
+}
+
+/* STYLING THE HOME SECTION */
+.home-section {
+    display: flex;
+    align-items: center;
+    margin-top: 7%;
+}
+
+#home-image{
+    width: 500px;
+    height: 500px;
+    margin-left: 12%;
+}
+
+.home-details {
+    font-family: 'Andika', sans-serif;
+    font-size: 3.8rem;
+    font-weight: 540;
+    text-align: left;
+    margin-left: 24%;
+    margin-top: 8%;
+    color: rgb(10, 44, 85);
+}
+
+.smallhome-heading {
+    font-family: 'Andika', sans-serif;
+    font-size: 1.3rem;
+    margin-left: 24%;
+    color: rgb(119, 22, 22);
+    letter-spacing: 2px;
+}
+
+#contact-button{
+    background-color: rgb(40, 142, 160);
+    border: none;
+    color: #fff;
+    border-radius: 8px;
+    padding: 6px 11px;
+    margin-left: 24%;
+    margin-top: 2%;
+}
+
+/* STYLING THE COURSES SECTION */
+#courses-section{
+    margin-top: 0%;
+}
+.course-image{
+    width: 400px;
+    height: 300px;
+    margin-left: 10%;
+    margin-top: 8%;
+    border-radius: 5%;
+}
+.project-card {
+    width: 380px;
+    height: 340px;
+    box-shadow: 5px 5px 20px rgb(128, 107, 107);
+    border-radius: 10%;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.project-image{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5%;
+}
+
+.course-title{
+    font-family: 'Andika', sans-serif;
+    font-size: larger;
+    font-weight: 540;
+    margin-left: 10%;
+    margin-top: 5%;
+    color: black;
+}
+
+#title{
+    font-family: 'Andika', sans-serif;
+    font-size: 2.0rem;
+    font-weight: 540;
+    margin-left: 38%;
+    margin-top: 8%;
+    color: black;
+
+}
+#home-bars{
+    width: 50%;
+    margin-left: 20%;
+    background-color: rgb(236, 19, 19);
+}
+
+.rating{
+    width: 18%;
+    margin-top: -8%;
+    margin-left: 15%;
+}
+
+
+/* STYLING THE FACILITATORS SECTION */
+.gallery {
+    overflow: hidden;
+    padding: 20px;
+}
+
+.gallery-title {
+    margin-top: 2%;
+    margin-left: 10%;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: 'Andika', sans-serif;
+    font-size: 3.0rem;
+    text-align: left;
+    color: #1a2e3f;
+}
+
+.gallery-container {
+    padding: 0 10px;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    width: 70%;
+    height: 800px;
+    margin-left: 16%;
+    margin-top: 7%;
+}
+
+.gallery-container::-webkit-scrollbar {
+    display: none;
+}
+
+.gallery-card {
+    flex: 0 0 auto;
+    width: 250px;
+    height: 450px;
+    margin-right: 40px;
+    margin-top: 2%;
+}
+
+.gallery-image {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+}
+
+.group-image {
+    width: 60%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.card-btn {
+    position: absolute;
+    bottom: 80px;
+    left: 40%;
+    transform: translateX(-50%);
+    padding: 7px;
+    width: 70%;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    background: rgb(216, 224, 224);
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+.card-btn:hover {
+    background: #d3dbdb;
+    color: #fff;
+}
+
+/* STYLING THE NEXT & PREVIOUS BUTTONS */
+.pre-btn,
+.nxt-btn {
+    border: none;
+    width: 10vw;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+    cursor: pointer;
+    z-index: 8;
+}
+
+.pre-btn {
+    left: 0;
+    transform: rotate(180deg);
+    /* margin-top: 10%; */
+}
+
+.nxt-btn {
+    right: 0;
+    /* margin-left: 80%; */
+}
+
+.pre-btn img,
+.nxt-btn img {
+    opacity: 0.2;
+}
+
+.pre-btn:hover img,
+.nxt-btn:hover img {
+    opacity: 1;
+}
+
+#form1{
+    width: 70%;
+    height: 530px;
+    margin-left: 17%;
+    margin-top: -20%;
+    border: #f0f4f7 solid;
+    background-color: rgb(208, 233, 225);
+    border-radius: 5%;
+}
+
+#form1-title{
+    margin-left: 10%;
+    font-size: 2.3rem;
+}
+
+#form-row{
+    margin-top: 3%;
+    margin-left: 1%;
+}
+
+#progress{
+    margin-left: 16%;
+    margin-top: 5%;
+    width: 80%;
+}
+
+#progress2{
+    margin-top: 5%;
+    width: 60%;
+    margin-left: 16%;
+}
+
+#login-button{
+    margin-left: -205%;
+    background-color: rgb(52, 190, 52);
+    border: none;
+}
+
+#dropdown{
+    margin-left: 10%;
+    margin-top: 9%;
+}
+
+#accepted{
+    display: flex;
+}
+
+/* STYLING THE LOCAL SECTION(students) */
+.local-section{
+    display: flex;
+    align-items: center;
+}
+#local-image{
+    margin-left: 2%;
+    margin-top: 3%;
+    width: 700px;
+    height: 500px;
+}
+
+.local-details{
+    text-align: center;
+    font-family: 'Andika', sans-serif;
+    font-size: 3.5rem;
+    margin-left: 3%;
+    margin-top: 20%;
+    color: rgb(165, 105, 26);
+    
+}
+
+#local-button{
+    background-color: rgb(85, 78, 66);
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 6px 11px;
+    margin-left: 74%;
+    margin-top: 2%;
+}
+
+#form2{
+    width: 65%;
+    height: 540px;
+    margin-left: 15%;
+    margin-top: 5%;
+    border: #f0f4f7 solid;
+    background-color: rgb(202, 170, 131);
+    border-radius: 5%;
+}
+
+.local-def{
+    text-align: center;
+    font-family: 'Andika', sans-serif;
+    font-size: 2.0rem;
+    color: rgb(158, 128, 88);
+    margin-top: 7%;
+    margin-left: -10%;
+}
+
+.question{
+    color: rgb(145, 47, 47);
+    margin-top: 13%;
+}
+
+
+.paragraph{
+    margin-left: 5%;
+}
+
+#form2-title{
+    margin-left: 40%;
+    margin-top: 2%;
+    font-size: 2.3rem;
+}
+
+#age{
+    margin-left: -1%;
+}
+
+/* STYLING THE INTERNATIONAL SECTION(students) */
+.international-details{
+    text-align: center;
+    font-family: 'Andika', sans-serif;
+    font-size: 3.5rem;
+    margin-left: 3%;
+    margin-top: 35%;
+    color: rgb(29, 65, 68);
+}
+
+.international-section{
+    display: flex;
+    align-items: center;
+}
+
+#international-image{
+    margin-left: 2%;
+    margin-top: 8%;
+    width: 700px;
+    height: 500px;
+}
+
+/* STYLING LOCAL STUDENT PORTAL */
+#table{
+    width: 68%;
+    height: 200px;
+    margin-left: 13%;
+    margin-top: 10%;
+}
+
+.portal{
+    background-color: #a8c8e4;
+}
+
+#portal-head{
+    text-align: center;
+    font-family: 'Andika', sans-serif;
+    font-size: 1.5rem;
+    margin-left: -10%;
+    margin-top: 6%;
+    color: rgb(29, 65, 68);
+}
+
+.portal-detail{
+    font-family: 'Andika', sans-serif;
+    font-size: 1.5rem;
+    color: rgb(9, 27, 29);
+    margin-left: 18%;
+    margin-top: 3%;
+}
+
+.portal-fail{
+    font-family: 'Andika', sans-serif;
+    font-size: 1.5rem;
+    color: rgb(175, 47, 47);
+    margin-left: 18%;
+    margin-top: 3%;
+}
+
+/* STYLING INTERNATIONAL STUDENT PORTAL */
+.portal-success{
+    font-family: 'Andika', sans-serif;
+    font-size: 1.5rem;
+    color: rgb(24, 82, 13);
+    margin-left: 18%;
+    margin-top: 3%;
+}
+
+
+/* STYLING FACILITATOR PORTAL */
+.facilitator-portal{
+    background-color: #a7a535;
+}
+
+.portal-success2{
+    font-family: 'Andika', sans-serif;
+    font-size: 1.5rem;
+    color: rgb(24, 82, 13);
+    margin-left: 15%;
+    margin-top: 3%;
+}
+
+#table2{
+    width: 68%;
+    height: 200px;
+    margin-left: 13%;
+    margin-top: 3%;
+}
