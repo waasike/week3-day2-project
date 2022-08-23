@@ -8,4 +8,4 @@ DONE: <br>
 ✓ C course cancelled due to lack of minimum no. of students achieved<br>
 ✓ Attributes of students & teachers recieved through sign up<br>
 ✓ Additional salary(ksh.80,000) given to Mr.Hillary(view when loging in to facilitator account)<br>
-✓ Local student below average grade hence academic probation(view when logging in to local student account)
+✓ Local student below average grade hence academic probation(view when logging in to local student. account)
